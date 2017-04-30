@@ -1,0 +1,62 @@
+﻿
+<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="admin2.master.cs" Inherits="MasterPage2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="style/Student.css" rel="Stylesheet" type="text/css" />
+ 
+
+ 
+ 
+ <asp:ContentPlaceHolder id="head" runat="server">
+   
+    
+    </asp:ContentPlaceHolder>
+    
+  
+    
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table style=" height: 100%; width: 96%;">
+<tr>
+<td  width="100%"  >
+<div>
+<ul id="student">
+<li><a href="Book.aspx">Book Add</a></li>
+<li><a href="StudentA.aspx">Student info</a>
+
+<li ><a href="admin_c.aspx">Student Conditions</a></li>
+
+
+
+</li>
+
+<li><a href="Bookreturn.aspx">Book Return</a></li>
+<li id="us">
+    <asp:Label ID="Label1" runat="server" Font-Bold="True"></asp:Label> 
+   </li><li> <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
+   
+    </li>
+</ul>
+    
+</div>
+
+</td>
+
+</tr>
+<tr>
+<td height="1000px" >
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+ </asp:ContentPlaceHolder>
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+</asp:Content>
+

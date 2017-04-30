@@ -1,0 +1,60 @@
+﻿body {
+}
+#student
+{
+    background-color:Menu;
+    display:block;
+    height: 65px;
+    
+    margin-bottom: 0px;
+    margin-left: 48px;
+    width: 1010px;
+}
+    
+#student li
+{
+    margin: 20px 0px 20px 13px;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 150px;
+}
+#student li a
+{
+    color: #9933FF;
+}
+#us
+{
+    text-transform: capitalize;
+}
+.book_t
+{
+    border: thin solid #000000;
+    width: 547px;
+}
+#s_book
+{box-shadow: 2px 5px 10px 10px #000000;
+}
+.book_t td
+{
+    
+    text-align: left;
+    font-size:x-large;
+   
+}
+.profile
+{ box-shadow: 2px 5px 10px 10px #000000;
+    background-color: #333333;
+    text-align: left;
+    font-size: large;
+    font-family: Castellar;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 533px;
+    width: 420px;
+}
+.profile td
+{
+}

@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="icon" href="images/Untitled-1.png" type="image/x-icon" />
+<link href="style/form.css" rel="stylesheet" type="text/css" />
+<link href="style/Animation.css" rel="Stylesheet" type="text/css" />
+<link href="style/StyleSheet1.css" rel="Stylesheet" type="text/css" />
+
+<link rel="Stylesheet" href="style/Block.css" type="text/css" />
+    <title >Libray world </title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    
+  
+    
+
+</head>
+
+<body >
+
+  <form runat="server">
+      <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
+     <div align="center">
+   <table id="master_t"  align="center" cellpadding="0px" cellspacing="0px" >
+     <tr>
+      <td id="up_row"  >
+      <div id="templatemo_header_wrapper">
+    <div id="templatemo_header">
+    	<div id="site_title">
+            <h1><a href="home.aspx" target="_parent">
+                <img src="images/Untitled-1.png" class="style5" />
+                <span></span>
+            </a></h1>
+        </div>
+    
+    </div> <!-- end of templatemo_header -->
+
+</div>
+       <table cellpadding="0px" cellspacing="0px" 
+              style="width: 1025px; margin-bottom: 0px; height: 1px;" align="center">
+        <tr>
+        
+          <td align="right"  >  
+          <div id="login" >
+          <table style="height: 110px">
+           <tr>
+            <td style="position: relative; right: 30px" align="center">
+            <table style="border: 1px solid #000000" class="block1"><tr><td><asp:TextBox ID="Uname" runat="server" 
+                     style="margin-right: 0px; padding-right: 7px;" Width="130px" BorderStyle="None"></asp:TextBox>
+            </td><td><a href=""> <asp:Label ID="Label1" runat="server" Text="go" CssClass="go"></asp:Label></a>
+            </td></tr></table>
+                  
+            </td>
+            
+               <td style="position: relative; right:-100px" align="left">
+                   <asp:LinkButton ID="LinkButton1" runat="server" CssClass="button" 
+                       onclick="LinkButton1_Click" Text="Login"></asp:LinkButton>
+                 
+                   
+                 
+               </td>
+               <td style="position: relative; right: 30px" align="center">
+                  <asp:LinkButton ID="LinkButton2" CssClass="button" onclick="link_c" runat="server">Profile</asp:LinkButton></td>
+           </tr>
+           
+           </table>
+          
+          </div>
+          </td>
+         </tr>
+        </table>
+       </td>
+        
+      </tr>
+      <tr valign="top" >
+       
+       
+       <!-----BAR--------->
+       <td class="style1" >
+             <div id="bar" align="center">
+       <ul id="menu" style="width: 1330px">
+           <li class="cata1" style=""><a href="home.aspx">HOME</a>
+           </li>
+           <li  class="cata1"
+               ><a href="course.aspx" >Course</a>
+          <div  class="Course">
+           <ul class="ani"><li class="cata2"><a href="">B.Tech</a>
+              <ul >
+                <li><a href="course.aspx?brn=cse">CSE</a></li>
+                <li><a href="course.aspx?brn=ece">ECE</a></li>
+                <li><a href="course.aspx?brn=me">ME</a></li>
+                <li ><a href="course.aspx?brn=IT">IT</a></li>  
+              </ul>
+              </li>
+          
+           <li class="cata2"><a href="">M.Tech</a>
+               <ul >
+                     <li><a href="course.aspx?brn=CSE">CSE</a></li>
+                     <li><a href="course.aspx?brn=ECE">ECE</a></li>
+                     <li><a href="course.aspx?brn=ME">ME</a></li>
+                     <li><a href="course.aspx?brn=IT">IT</a></li>
+                
+               </ul>
+           </li>
+          
+              
+              <li class="cata2"><a href="course.aspx?brn=MCA">MCA</a>
+            <ul >
+             <li><a href="">Finance</a></li>
+     <li><a href="">Marketing</a></li>
+ <li><a href="">Entrepreneurship</a></li>
+ </ul></li>
+   <li class="cata2" ><a href="">MBA</a>
+            <ul ><li><a href="course.aspx?brn=mba">MBA(1 to 3 sem)</a></li>
+                     <li><a href="course.aspx?brn=Finance">Finance</a></li>
+                     <li><a href="course.aspx?brn=Marketing">Marketing</a></li>
+                     <li><a href="course.aspx?brn=Entrepreneurship">Entrepreneurship</a></li>
+                     <li><a href="course.aspx?brn=Accounting">Accounting</a></li>
+                     <li><a href="course.aspx?brn=Management">Management</a></li>
+                     <li><a href="course.aspx?brn=R_Estate">Real Estate</a></li>
+                     <li><a href="course.aspx?brn=Nonprofit">Nonprofit</a></li>
+                     <li><a href="course.aspx?brn=H_Care">Health Care</a></li>
+                     <li><a href="course.aspx?brn=H_S_M" style="height: 40px">Human Services Management</a></li>
+                     <li><a href="course.aspx?brn=Sports Management">Sports Management</a></li>
+                     <li><a href="course.aspx?brn=Economics">Economics</a></li>
+                     <li><a href="course.aspx?brn=Organizational Management"  style="height: 40px">Organizational Management</a></li>
+              
+                
+              </ul></li>
+              </ul></div></li>
+       
+              
+              
+              <li class="cata1"><a href="">E-Books</a>
+           </li>
+           <li class="cata1"><a href="About_Us.aspx">About Us</a>
+          <div  class="Course">
+           <ul class="ani"><li class="cata2"><a href="Contact.aspx">Contact Us</li></ul></div>
+           </li>
+              </ul>
+         </div>
+        </td>
+       </tr>
+       <tr>
+         <td  bgcolor="White" valign="top"  style="padding: 0px; margin: 0px"><center>
+    <div style="width: 1300px; position: relative; right: 20px;">
+         
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+           </div></center>
+           </td>
+       </tr>
+       <tr><td align="center" class="style3">
+           <img src="book/footer.jpg" class="style4" /></td></tr>
+     </table>
+    </div>
+  </form>
+</body>
+</html>

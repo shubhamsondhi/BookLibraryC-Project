@@ -1,0 +1,35 @@
+﻿body {
+}
+
+
+
+
+
+
+
+
+ @-webkit-keyframes bgcg 
+{
+   from
+   {height:0;
+}
+to
+{height:600px;
+}
+ 
+}
+@-moz-keyframes bgcg
+{
+   from
+   {height:0;
+}
+to
+{height:600px;
+}
+ 
+}
+  
+.Course
+{-moz-animation:bgcg 500ms linear 0s ;
+ -webkit-animation:bgcg 500ms linear 0s  ;
+}  

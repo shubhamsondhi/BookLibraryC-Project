@@ -1,0 +1,29 @@
+﻿body {
+}
+#dform
+{
+    width:800px;
+    height:800px;
+    
+}
+h1
+{
+     text-shadow: 2px 2px #000000;
+ color:#D9CAF4;
+}
+#form
+{
+    box-shadow: 5px 5px 10px #000000;
+    width: 561px;
+    height: 737px;
+    font-weight: bolder;
+    background-color: #FAF8FE;
+}
+#form td
+{ 
+  
+   
+   
+   
+}
+
