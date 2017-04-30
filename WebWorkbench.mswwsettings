@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<web-workbench>
+  <file name="Scss.scss">
+    <setting name="Compile">True</setting>
+    <setting name="Minify">True</setting>
+  </file>
+  <file name="CoffeeScript.coffee">
+    <setting name="Compile">True</setting>
+    <setting name="Minify">True</setting>
+  </file>
+  <file name="CoffeeScript2.coffee">
+    <setting name="Compile">True</setting>
+    <setting name="Minify">True</setting>
+  </file>
+</web-workbench>

@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="StudentPage2.master.cs" Inherits="MasterPage2" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="style/Student.css" rel="Stylesheet" type="text/css" />
+ 
+
+ 
+ 
+ <asp:ContentPlaceHolder id="head" runat="server">
+   
+    
+    </asp:ContentPlaceHolder>
+    
+  
+    
+    
+    
+  
+    
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table style=" height: 100%; width: 86%;" align="center">
+<tr>
+<td  width="80%" >
+<div >
+<ul id="student">
+
+<li><a href="issued.aspx">Issued</a></li>
+<li><a href="p_return.aspx">Pending To Return</a></li>
+<li> <a href="profile.aspx">Student Profile</a>
+
+    </li>
+
+<li><a href="student.aspx">Selected Book</a></li><li id="us">
+    <asp:Label ID="Label1" runat="server" Font-Bold="True"></asp:Label> 
+    
+    </li>
+    <li style="position: relative; bottom: 8px"><asp:Button ID="Button1" runat="server" onclick="Button1_Click" 
+            Text="logout" CssClass="style3" Height="38px" Width="100px" /></li>
+           
+   
+</ul>
+    
+</div>
+
+</td>
+
+</tr>
+<tr>
+<td height="700px" width="80%" >
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+ </asp:ContentPlaceHolder>
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+</asp:Content>
+
